@@ -221,7 +221,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hubo_head_description/meshes/camera_l_link.STL" />
+          filename="package://hubo_head_description/meshes/flea_camera.STL" />
       </geometry>
       <material
         name="">
@@ -235,7 +235,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hubo_head_description/meshes/camera_l_link.STL" />
+          filename="package://hubo_head_description/meshes/flea_camera.STL" />
       </geometry>
     </collision>
   </link>
@@ -274,7 +274,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hubo_head_description/meshes/camera_c_link.STL" />
+          filename="package://hubo_head_description/meshes/flea_camera.STL" />
       </geometry>
       <material
         name="">
@@ -288,7 +288,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hubo_head_description/meshes/camera_c_link.STL" />
+          filename="package://hubo_head_description/meshes/flea_camera.STL" />
       </geometry>
     </collision>
   </link>
@@ -327,7 +327,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hubo_head_description/meshes/camera_r_link.STL" />
+          filename="package://hubo_head_description/meshes/flea_camera.STL" />
       </geometry>
       <material
         name="">
@@ -341,7 +341,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hubo_head_description/meshes/camera_r_link.STL" />
+          filename="package://hubo_head_description/meshes/flea_camera.STL" />
       </geometry>
     </collision>
   </link>
