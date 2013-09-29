@@ -200,6 +200,21 @@
       xyz="0 0 -1" />
   </joint>
   <link
+    name="lidar_optical_frame" />
+  <joint
+    name="lidar_optical_link"
+    type="fixed">
+    <origin
+      xyz="0 0.0375 0.00135"
+      rpy="1.5708 -1.0106E-15 3.1416" />
+    <parent
+      link="lidar_tilt_link" />
+    <child
+      link="lidar_optical_frame" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
     name="camera_l_link">
     <inertial>
       <origin
