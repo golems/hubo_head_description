@@ -197,7 +197,7 @@
     <child
       link="lidar_tilt_link" />
     <axis
-      xyz="0 -1 0" />
+      xyz="0 1 0" />
   </joint>
   <link
     name="lidar_optical_frame" />
