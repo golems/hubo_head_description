@@ -29,4 +29,5 @@
   </node>
   <node name="body_to_head_tf_publisher" pkg="tf" type="static_transform_publisher" args="0.03 0 -0.03 0.07 0.04 0 /Body_NKY /head_base_link 100" />
   <node name="camera_tf_publisher" pkg="tf" type="static_transform_publisher" args="0 0.06 0 0 0 0 /ps_lower_base_link /camera_link 100" />
+  <node name="lidar_tilt_to_lider_tf_publisher" pkg="tf" type="static_transform_publisher" args="0 0.035 0 0 3.14 -1.57 /lidar_tilt_link /lidar_link 100" />
 </launch>
