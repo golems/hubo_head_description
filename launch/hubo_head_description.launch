@@ -21,7 +21,7 @@
     <remap from="joint_states" to="/hubo/head_joint_states" />
   </node>
   <node
-    name="robot_state_publisher"
+    name="head_state_publisher"
     pkg="robot_state_publisher"
     type="state_publisher" >
     <remap from="robot_description" to="robot_head_description" />
