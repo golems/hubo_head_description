@@ -30,7 +30,7 @@
       <param name="input_topic_name" type="string" value="/hubo/head_joint_states" />
       <param name="topic_type" type="string" value="sensor_msgs/JointState" />
       <param name="request_service" type="string" value="joint_states/data" />
-      <remap from="/tf" to="$(arg remapped_tf)" /> -->
-  </node>
+      <remap from="/tf" to="$(arg remapped_tf)" />
+  </node>-->
 
 </launch>
